@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.first {
+  width: 100%;
+  min-height: 200px;
+  background-color: rebeccapurple;
+}
+.second {
+  overflow: hidden;
+}
+.second__1 {
+  width: 65%;
+  min-height: 100px;
+  background-color: red;
+  float: left;
+}
+.second__2 {
+  width: 35%;
+  min-height: 100px;
+  background-color: green;
+  float: right;
+}
+.same {
+  width: 33.33%;
+}
+.third {
+  overflow: hidden;
+}
+.third__1 {
+  background-color: darkblue;
+  min-height: 100px;
+  float: left;
+}
+.third__2 {
+  background-color: darkcyan;
+  min-height: 100px;
+  float: left;
+}
+.third__3 {
+  background-color: rebeccapurple;
+  min-height: 100px;
+  float: left;
+}
