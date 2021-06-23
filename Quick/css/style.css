@@ -1,0 +1,156 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 1.125rem;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+header {
+  overflow: hidden;
+  border-bottom: 1px solid #f1f2f5;
+}
+.logo {
+  float: left;
+}
+.logo__img {
+  margin-top: 10px;
+  display: block;
+  height: 100%;
+}
+.nav {
+  overflow: hidden;
+}
+.nav__list {
+  float: right;
+}
+.nav__item {
+  list-style-type: none;
+  float: left;
+  margin-right: 20px;
+}
+.nav__item:last-child {
+  margin-right: 0;
+}
+.nav__link {
+  text-decoration: none;
+}
+
+/* main start */
+.main__container {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px 150px 10px;
+}
+
+.main__title {
+  font-size: 2.5rem;
+  padding: 0 50px;
+  color: rgb(15, 38, 86);
+  margin-bottom: 0;
+  letter-spacing: 1px;
+}
+.main__title span {
+  color: #0f91ff;
+}
+.main__subtitle {
+  font-size: 1rem;
+}
+.main__img {
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+  display: block;
+  margin-left: 60px;
+}
+
+/* section__success start */
+.success__container {
+  width: 60%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.success__title {
+  width: 50%;
+  float: right;
+  font-size: 2.3rem;
+  color: #0b2353;
+  text-align: left;
+  padding: 0 150px 0 20px;
+}
+.success__details {
+  width: 50%;
+  float: left;
+  text-align: right;
+}
+.success__details h1 {
+  font-size: 2.3rem;
+  color: #f15767;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+.success__details p {
+  font-size: 1rem;
+  color: #0b2353;
+  padding-left: 150px;
+  letter-spacing: 0.5px;
+  margin-top: 0;
+}
+
+/* service start */
+.container__service {
+  overflow: hidden;
+}
+.service {
+  width: 32%;
+  float: left;
+  margin-right: 2%;
+}
+.service:last-child {
+  margin-right: 0;
+}
+.service__img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+.service__body {
+  padding: 0 25px;
+}
+.service__title {
+  margin-bottom: 10px;
+  color: #0b2353;
+  font-weight: bold;
+}
+.service__details {
+  font-size: 1rem;
+  color: #0b2353;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+  margin-top: 0;
+  font-weight: 300;
+}
+
+/* footer start */
+footer {
+  background-color: #0f91ff;
+  padding: 5px 0;
+  margin-top: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+footer span {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
