@@ -1,0 +1,386 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin: 0;
+  color: #333;
+}
+img {
+  display: block;
+  width: 100%;
+}
+
+/* header start */
+.container {
+  width: 60%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.header__container {
+  padding: 0.5em 0;
+}
+.logo {
+  float: left;
+  margin-top: 11px;
+}
+
+.nav {
+  float: right;
+}
+.nav__list {
+  overflow: hidden;
+  padding: 0;
+}
+.nav__item {
+  list-style-type: none;
+  float: left;
+  margin-right: 10px;
+}
+.nav__item:last-child {
+  margin-right: 0;
+}
+.nav__link {
+  font-weight: 550;
+  color: #333;
+  text-decoration: none;
+}
+.nav__link:focus,
+.nav__link:hover {
+  border-bottom: 1px solid #777;
+}
+.active {
+  color: red;
+}
+
+/* main start */
+
+main {
+  color: #fff;
+  padding: 6em 0 10em;
+  background-color: #333;
+  background: url(../image/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main__title {
+  font-size: 2.6rem;
+  font-weight: 800;
+  text-transform: capitalize;
+  width: 41%;
+  margin-top: 0;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  line-height: 1.1;
+}
+.main__details {
+  font-size: 0.9rem;
+  font-weight: 550;
+  width: 60%;
+  margin: 5px 0;
+  line-height: 1.3;
+}
+main p:first-of-type {
+  text-transform: capitalize;
+  margin: 10px 0;
+}
+.btn {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main__btn {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  background-color: red;
+  padding: 11px 15px;
+  margin-top: 35px;
+  border-radius: 5px;
+  transition: all 250ms ease-in;
+}
+
+.main__btn:focus,
+.main__btn:hover {
+  transform: scale(0.9);
+  background-color: rgb(51, 5, 5);
+}
+
+/* service start */
+.container__service {
+  padding: 4.5em 1.5em 3em;
+  text-align: center;
+}
+
+.service__title {
+  font-size: 2.3rem;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.service__details {
+  font-size: 0.9rem;
+  color: #777;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.service {
+  width: 32%;
+  float: left;
+  margin-top: 50px;
+  margin-right: 2%;
+}
+.service:last-child {
+  margin-right: 0;
+}
+
+.service__img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  object-fit: cover;
+}
+.service__subtitle {
+  font-size: 1rem;
+  font-weight: 800;
+  padding: 0 2.5em;
+}
+
+/* process start */
+.process__container {
+  padding: 5em 0 3em;
+  overflow: hidden;
+}
+
+.process__body {
+  width: 48%;
+  float: left;
+  margin-top: 20px;
+  overflow: hidden;
+}
+.process__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.process__details {
+  font-size: 0.9rem;
+  color: #777;
+}
+.process__btn {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  background-color: red;
+  padding: 0.7em 1em;
+  margin-top: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: all 250ms ease-in;
+}
+
+.process__btn:focus,
+.process__btn:hover {
+  background-color: rgb(51, 5, 5);
+  transform: scale(0.9);
+}
+.process__showcase {
+  width: 47%;
+  float: right;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.process__show {
+  width: 400px;
+  height: 260px;
+  border-radius: 5px;
+}
+
+/* feature */
+.feature__container {
+  padding: 5em 0 3em;
+  text-align: center;
+}
+
+.feature__title {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.feature__details {
+  font-size: 0.9rem;
+  color: #777;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.feature__body {
+  margin-top: 60px;
+}
+.feature {
+  width: 31%;
+  float: left;
+  padding: 1em 0.1em;
+  background-color: #fff;
+  margin-right: 3%;
+  margin-bottom: 30px;
+  -webkit-box-shadow: -1px 2px 15px 2px #0f0f0f;
+  box-shadow: -1px 2px 15px 2px #0f0f0f;
+}
+
+.feature:nth-child(3n) {
+  margin-right: 0;
+}
+
+.feature__img {
+  display: block;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.feature__header {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.feature__btn {
+  display: inline-block;
+  color: red;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-top: 80px;
+}
+
+/* footer main */
+.active {
+  color: red;
+}
+.footer__main {
+  margin-top: 100px;
+  background-color: #0f0f0f;
+  color: #999;
+  font-size: 1.1rem;
+  padding: 5em 0;
+}
+
+.footer__div {
+  margin-right: 2%;
+  float: left;
+}
+.footer__div:last-child {
+  margin-right: 0;
+}
+
+.footer__contact {
+  width: 33%;
+}
+.footer__links {
+  width: 30%;
+}
+.footer__newsletter {
+  width: 33%;
+}
+.footer__title {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: red;
+}
+.fas {
+  margin-right: 5px;
+}
+.footer__email a {
+  text-decoration: none;
+  color: #999;
+}
+.contact__nav--list {
+  padding-left: 0;
+}
+.nav__item--contact {
+  list-style-type: none;
+  float: left;
+  margin-right: 15px;
+  margin-top: 30px;
+}
+
+.nav__item--contact a {
+  color: #777;
+}
+.link {
+  padding-left: 0;
+}
+.link__item {
+  list-style-type: none;
+  margin-bottom: 8px;
+}
+
+.link__links {
+  text-decoration: none;
+  color: #999;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+.newsletter__body {
+  font-size: 1.1rem;
+}
+
+form {
+  margin-top: 50px;
+}
+.email {
+  padding: 1em 0.5em;
+  border: none;
+  outline: none;
+  background-color: #333;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+::-webkit-input-placeholder {
+  color: #555;
+}
+
+:-ms-input-placeholder {
+  color: #999;
+}
+
+::placeholder {
+  font-size: 1rem;
+  color: #999;
+  font-weight: bold;
+  padding-left: 5px;
+}
+.form__btn {
+  font-size: 1rem;
+  margin-left: -5px;
+  padding: 0.7em 1.45em 0.78em;
+  background-color: red;
+  border: none;
+  outline: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  transition: all 250ms ease-in;
+}
+
+.form__btn:focus,
+.form__btn:hover {
+  background-color: rgb(51, 5, 5);
+}
+
+footer {
+  background-color: slategray;
+  padding: 1em;
+  text-align: center;
+  color: #fff;
+}
+footer p {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
