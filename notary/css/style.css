@@ -44,7 +44,7 @@ img {
   margin-right: 0;
 }
 .nav__link {
-  font-weight: 550;
+  font-size: 1rem;
   color: #333;
   text-decoration: none;
 }
@@ -226,7 +226,7 @@ main p:first-of-type {
 .feature {
   width: 31%;
   float: left;
-  padding: 1em 0.1em;
+  padding: 1em 0.7em;
   background-color: #fff;
   margin-right: 3%;
   margin-bottom: 30px;
@@ -247,7 +247,7 @@ main p:first-of-type {
 }
 
 .feature__header {
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-transform: uppercase;
 }
 
@@ -359,8 +359,8 @@ form {
 }
 .form__btn {
   font-size: 1rem;
-  margin-left: -5px;
-  padding: 0.7em 1.45em 0.78em;
+  margin-left: -25px;
+  padding: 0.7em 1em 0.78em;
   background-color: red;
   border: none;
   outline: none;
