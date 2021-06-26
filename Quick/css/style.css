@@ -154,3 +154,17 @@ footer span {
   letter-spacing: 2px;
   font-weight: bold;
 }
+
+.box {
+  width: 220px;
+  height: 180px;
+  background: linear-gradient(
+    to bottom,
+    rgba(238, 50, 28, 1) 0%,
+    rgba(238, 50, 28, 1) 20%,
+    rgba(0, 255, 0, 1) 20%,
+    rgba(0, 255, 0, 1) 50%,
+    rgba(0, 0, 128, 1) 50%,
+    rgba(0, 0, 128, 1) 100%
+  );
+}
