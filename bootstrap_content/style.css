@@ -1,0 +1,44 @@
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.img img {
+  width: 200px;
+  height: 200px;
+}
+
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: #dddddd;
+}
+
+.pill {
+  width: 230px;
+  height: 76px;
+}
+
+.d-block {
+  margin: 20px 0;
+}
+
+.box3 {
+  border: 1px solid white;
+}
+.box4 {
+  border: 1px solid black;
+}
+
+.mh-300 {
+  min-height: 100px;
+}
+
+.ml {
+  margin: 0 20px;
+}
